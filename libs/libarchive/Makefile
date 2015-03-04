@@ -27,7 +27,7 @@ define Package/libarchive
     TITLE:=Multi-format archive and compression library 
     MAINTAINER:=Gergely Kiss <mail.gery@gmail.com>
     URL:=http://www.libarchive.org/
-    DEPENDS:=+libattr +libbz2 +libexpat +liblzo +libnettle +zlib
+    DEPENDS:=+libattr +libbz2 +libexpat +liblzo +libnettle +zlib +libxml2
 endef
 
 define Package/libarchive/description
